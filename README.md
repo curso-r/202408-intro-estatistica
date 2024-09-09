@@ -25,13 +25,17 @@ Fora do horário de aula ou monitoria:
 
 ## Slides
 
-| Slide |
-|:------|
+| Slide                                                                                              |
+|:---------------------------------------------------------------------------------------------------|
+| [introducao.html](https://curso-r.github.io/202408-intro-estatistica/slides/introducao.html)       |
+| [probabilidade.html](https://curso-r.github.io/202408-intro-estatistica/slides/probabilidade.html) |
 
 ## Scripts utilizados em aula
 
-| Exemplo |
-|:--------|
+| Exemplo                                                                                                      |
+|:-------------------------------------------------------------------------------------------------------------|
+| [contagens.R](https://curso-r.github.io/202408-intro-estatistica/exemplos_de_aula/contagens.R)               |
+| [simulacoes_dados.R](https://curso-r.github.io/202408-intro-estatistica/exemplos_de_aula/simulacoes_dados.R) |
 
 ## Práticas
 
