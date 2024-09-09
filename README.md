@@ -27,6 +27,7 @@ Fora do horário de aula ou monitoria:
 
 | Slide                                                                                              |
 |:---------------------------------------------------------------------------------------------------|
+| [distribuicoes.html](https://curso-r.github.io/202408-intro-estatistica/slides/distribuicoes.html) |
 | [introducao.html](https://curso-r.github.io/202408-intro-estatistica/slides/introducao.html)       |
 | [probabilidade.html](https://curso-r.github.io/202408-intro-estatistica/slides/probabilidade.html) |
 
