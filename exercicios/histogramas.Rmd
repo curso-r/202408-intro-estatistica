@@ -1,0 +1,134 @@
+---
+title: "Histogramas e Tipo de Variáveis"
+author: "Curso-R"
+date: "2024-02-20"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Exercício 1
+
+O histograma abaixo mostra a distribuição das notas em avaliações finais em um certo curso.
+
+```{r, echo = FALSE}
+knitr::include_graphics("exercicio1.png")
+```
+
+## a)
+
+Qual bloco representa as pessoas que tiraram entre 60 e 80?
+
+## b)
+
+10% tiraram entre 20 e 40, quantos % tiraram entre 40 e 60?
+
+## c)
+
+Qual percentual tirou acima de 60?
+
+# Exercício 2
+
+Em uma pesquisa coletou-se o salário por hora de três grupos de pessoas. As pessoas do grupo B ganham aproximadamente o dobro das pessoas do grupo A e as pessoas do grupo C ganham aproximadamente $10 a mais do que as do grupo A. Qual histograma pertence a qual grupo?
+
+```{r, echo = FALSE, out.width="90%"}
+knitr::include_graphics("exercicio2.png")
+```
+
+# Exercício 3
+
+No contexto de preenchimento de um formulário de cadastro, Classifique as variáveis em quantitativas contínuas, quantitativas discretas, qualitativas ou qualitativas ordinais e justifique sua resposta.
+
+## a) Ocupação
+
+## b) Escolaridade
+
+## c) Região de residência
+
+## d) Peso
+
+## e) Altura
+
+## f) Número de veículos 
+
+## g) 
+
+# Exercíco 4
+
+Instale o pacote `dados` utilizando o comando `install.packages(dados)`.
+
+```{r}
+install.packages("dados")
+```
+
+
+Nos exercícios a seguir considere o conjunto de dados acessível pela sintaxe `dados::casas `.
+
+```{r}
+?dados::casas
+```
+
+
+## a) 
+
+Classifique de acordo com o tipo de variável as variáveis `primeiro_andar_area`, `segundo_andar_area` e `geral_qualidade` e `moradia_estilo`
+
+- primeiro_andar_area é uma variável quantitativa contínua (não tem uma escala só)
+- segundo_andar_area é um variável mista. ela é quantitativa contínua quando tem 2o andar e qualitativa quando não tem. o "0" na verdade é como se fosse um texto "não tem segundo andar"
+- geral_qualidade é uma variável qualitativa ordinal: é formada por categorias textuais, MAS é como se fossem numeros. tem uma ordem natural entre os valores (textos)
+- moradia_estilo é melhor analisar moradia_estilo como qualitativa
+
+```{r}
+dados::casas |> count(moradia_estilo)
+```
+
+
+
+```{r}
+library(tidyverse)
+
+dados::casas |> 
+  ggplot2::ggplot(
+    aes(x = geral_qualidade)) + 
+  geom_bar()
+```
+
+
+## b)
+
+Construa histogramas de contagem para as variáveis  `primeiro_andar_area` e `segundo_andar_area`
+
+```{r}
+hist(1.5*dados::casas$primeiro_andar_area/5)
+
+# dados::casas |> 
+#   ggplot2::ggplot(
+#     aes(x = primeiro_andar_area)) + 
+#   geom_bar()
+```
+
+```{r}
+dados::casas |> 
+  filter(segundo_andar_area > 0) |> 
+  with(hist(segundo_andar_area))
+```
+
+
+## c)
+
+Construa histogramas de densidade para comparar os histogramas de `primeiro_andar_area` e `segundo_andar_area` entre as categorias da variável `geral_qualidade`
+
+```{r}
+dados::casas |>
+  filter(segundo_andar_area > 0 ) |> 
+  ggplot(aes(x = segundo_andar_area, fill = geral_qualidade)) +
+  geom_histogram() + 
+  facet_wrap(~geral_qualidade, nrow = 2, scales = 'free_y')
+
+```
+
+
+
+

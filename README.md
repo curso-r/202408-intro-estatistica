@@ -32,10 +32,12 @@ Fora do horário de aula ou monitoria:
 
 ## Scripts utilizados em aula
 
-| Exemplo                                                                                                      |
-|:-------------------------------------------------------------------------------------------------------------|
-| [contagens.R](https://curso-r.github.io/202408-intro-estatistica/exemplos_de_aula/contagens.R)               |
-| [simulacoes_dados.R](https://curso-r.github.io/202408-intro-estatistica/exemplos_de_aula/simulacoes_dados.R) |
+| Exemplo                                                                                                                              |
+|:-------------------------------------------------------------------------------------------------------------------------------------|
+| [1.contagens.R](https://curso-r.github.io/202408-intro-estatistica/exemplos_de_aula/1.contagens.R)                                   |
+| [2.simulacoes_dados.R](https://curso-r.github.io/202408-intro-estatistica/exemplos_de_aula/2.simulacoes_dados.R)                     |
+| [3.estatisticas_amostrais.R](https://curso-r.github.io/202408-intro-estatistica/exemplos_de_aula/3.estatisticas_amostrais.R)         |
+| [4.distribuicao_amostral_soma.R](https://curso-r.github.io/202408-intro-estatistica/exemplos_de_aula/4.distribuicao_amostral_soma.R) |
 
 ## Práticas
 
@@ -44,8 +46,9 @@ Fora do horário de aula ou monitoria:
 
 ## Lição de casa
 
-| Exercício |
-|:----------|
+| Exercício                                                                                        |
+|:-------------------------------------------------------------------------------------------------|
+| [histogramas.Rmd](https://curso-r.github.io/202408-intro-estatistica/exercicios/histogramas.Rmd) |
 
 ## Material extra
 
