@@ -39,6 +39,10 @@ Fora do horário de aula ou monitoria:
 | [2.simulacoes_dados.R](https://curso-r.github.io/202408-intro-estatistica/exemplos_de_aula/2.simulacoes_dados.R)                     |
 | [3.estatisticas_amostrais.R](https://curso-r.github.io/202408-intro-estatistica/exemplos_de_aula/3.estatisticas_amostrais.R)         |
 | [4.distribuicao_amostral_soma.R](https://curso-r.github.io/202408-intro-estatistica/exemplos_de_aula/4.distribuicao_amostral_soma.R) |
+| [5.intervalo_de_confianca.R](https://curso-r.github.io/202408-intro-estatistica/exemplos_de_aula/5.intervalo_de_confianca.R)         |
+| [6.simulacoes_confianca.R](https://curso-r.github.io/202408-intro-estatistica/exemplos_de_aula/6.simulacoes_confianca.R)             |
+| [7.testes_de_proporcao.R](https://curso-r.github.io/202408-intro-estatistica/exemplos_de_aula/7.testes_de_proporcao.R)               |
+| [BD_CIS0684.xlsx](https://curso-r.github.io/202408-intro-estatistica/exemplos_de_aula/BD_CIS0684.xlsx)                               |
 
 ## Práticas
 
