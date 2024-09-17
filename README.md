@@ -25,11 +25,12 @@ Fora do horário de aula ou monitoria:
 
 ## Slides
 
-| Slide                                                                                              |
-|:---------------------------------------------------------------------------------------------------|
-| [distribuicoes.html](https://curso-r.github.io/202408-intro-estatistica/slides/distribuicoes.html) |
-| [introducao.html](https://curso-r.github.io/202408-intro-estatistica/slides/introducao.html)       |
-| [probabilidade.html](https://curso-r.github.io/202408-intro-estatistica/slides/probabilidade.html) |
+| Slide                                                                                                                          |
+|:-------------------------------------------------------------------------------------------------------------------------------|
+| [apresentacao_tcl_amostragem.pptx](https://curso-r.github.io/202408-intro-estatistica/slides/apresentacao_tcl_amostragem.pptx) |
+| [distribuicoes.html](https://curso-r.github.io/202408-intro-estatistica/slides/distribuicoes.html)                             |
+| [introducao.html](https://curso-r.github.io/202408-intro-estatistica/slides/introducao.html)                                   |
+| [probabilidade.html](https://curso-r.github.io/202408-intro-estatistica/slides/probabilidade.html)                             |
 
 ## Scripts utilizados em aula
 
