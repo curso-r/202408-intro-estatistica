@@ -1,0 +1,18 @@
+---
+title: "Untitled"
+output: html_document
+date: "2024-09-23"
+---
+
+$$\text{Percentual da pesquisa} \sim \text{(dist amostral)} Normal\left(p, \sqrt{\frac{p(1-p)}{n}}\right)$$
+O intervalo sempre vai ser: 
+$$\left[p - 2\sqrt{\frac{p(1-p)}{n}}, p + 2\sqrt{\frac{p(1-p)}{n}}\right]$$
+Como p*(1-p) é menor que 1/4 sempre o MAIOR intervalo possivel, pra qualquer p (um intervalo que vai conter todos os outros) é:
+
+$$\left[\bar{x} - 2\sqrt{\frac{1/4}{n}}, \bar{x} + 2\sqrt{\frac{1/4}{n}}\right] =  \left[\bar{x} - 2\frac{1/2}{\sqrt{n}}, \bar{x} + 2\frac{1/2}{\sqrt{n}}\right] = $$
+
+$$\left[\bar{x}-\frac{1}{\sqrt{n}}, \bar{x}+\frac{1}{\sqrt{n}}\right]$$
+
+Digamos que eu queira que o "erro" do intervalo, pra mais ou pra menos, seja 1 por cento. Eu posso escolher um tamanho de amostra fazendo:
+
+$$\frac{1}{\sqrt{n}} = 1\% \implies \frac{1}{\sqrt{n}} = \frac{1}{100} \implies \sqrt{n} = 100 = 10^2 \implies n = 10^4 = 10000$$
