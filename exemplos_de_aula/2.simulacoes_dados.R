@@ -1,6 +1,6 @@
 # Dados -------------------------------------------------------------------
 
-dados_rolagens <- readRDS("dados/experimento_dado.rds")
+dados_rolagens <- readRDS("dados/dados_rolagens.rds")
 
 # Fazendo contagens -------------------------------------------------------
 
